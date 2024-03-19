@@ -1,0 +1,263 @@
+@media screen and (max-width: 769px) {
+    .areapcem{
+        width: 97%;
+    }
+    section, .projeto, h3{
+        /* padding-top: 20px; */
+    }
+    header .logo_redes{
+        flex-direction: column;
+        /* height: 110px; */
+    }
+    header .logo_redes img{
+        width: 100%;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+    .navbar{
+        /* background-color: transparent; */
+    }
+
+    .sobre .areapcem{
+        flex-direction: column-reverse;
+    }
+
+
+
+
+    .projeto{
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .projeto:nth-child(even){
+        flex-direction: column;
+    }
+
+
+    .imagemsite{
+        width: 283px;
+        height: 182px;
+        background-size: cover;
+        position: absolute;
+        top: 85px;
+        transition: 2s;
+        /* border: 1px solid red; */
+    }
+    .projeto:nth-child(odd) .imagemsite{
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    .projeto:nth-child(even) .imagemsite{
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    .projeto img{
+        width: 360px;
+        /* height: 360px; */
+        margin: auto;
+        object-fit: contain;
+    }
+    .projeto{
+        padding-top: 0px;
+    }
+
+    .certificados .areapcem .html_teste{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .html_teste .html_textos{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .html_teste .html_textos ul li{
+        list-style: none;
+        cursor: pointer;
+    }
+    .html_teste .carousel{
+        width: 350px;
+        margin: 0 auto;
+    }
+    .html_teste img{
+        width: 350px;
+        height: 210px;
+    }
+
+/* CONTATO */
+
+.contatos .dados_contato{
+    flex-direction: column;
+}
+
+.dados_contato .meus_dados{
+    width: 100%;
+}
+.dados_contato .meus_dados div{
+    margin-bottom: 10px;
+}
+
+.dados_contato .svg-inline--fa {
+    height: 40px;
+    margin-top: 10px;
+}
+
+.dados_contato form{
+    width: 100%;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 770px) and (max-width: 1100px) {
+    .projeto{
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 20px;
+        position: relative;
+        padding-top: 0px;
+    }
+    .projeto:nth-child(even){
+        flex-direction: column;
+    }
+    .projeto:nth-child(odd){
+        flex-direction: column;
+    }
+
+
+
+    .imagemsite{
+        /* width: 283px; */
+        /* height: 182px; */
+        /* background-size: cover; */
+        /* position: absolute; */
+        top: 20px;
+        /* transition: 2s; */
+        /* border: 1px solid red; */
+    }
+    .projeto:nth-child(odd) .imagemsite,.projeto:nth-child(even) .imagemsite{
+        left: 80px;
+    }
+    .projeto img{
+        /* border: 1px solid red; */
+        width: 650px;
+        /* height: 360px; */
+        margin: auto;
+        object-fit: contain;
+    }
+
+    .certificados .areapcem .html_teste{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .html_teste .html_textos{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .html_teste .carousel{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .html_teste img{
+        width: 580px;
+        height: 320px;
+    }
+    .contatos .dados_contato{
+        flex-direction: column;
+    }
+    
+    .dados_contato .meus_dados{
+        width: 100%;
+    }
+    .dados_contato .meus_dados div{
+        margin-bottom: 10px;
+    }
+    
+    .dados_contato .svg-inline--fa {
+        height: 40px;
+        margin-top: 10px;
+    }
+    
+    .dados_contato form{
+        width: 100%;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+    .projeto{
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .projeto:nth-child(even){
+        flex-direction: column;
+    }
+
+
+    .imagemsite{
+        /* width: 283px; */
+        /* height: 182px; */
+        background-size: cover;
+        position: absolute;
+        /* top: 85px; */
+        transition: 2s;
+        /* border: 1px solid red; */
+    }
+    .projeto:nth-child(odd) .imagemsite{
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    .projeto:nth-child(even) .imagemsite{
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    .projeto img{
+        /* width: 360px; */
+        /* height: 360px; */
+        margin: auto;
+        object-fit: contain;
+    }
+    .projeto{
+        /* padding-top: 0px; */
+    }
+
+    .certificados .areapcem .html_teste{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .html_teste .html_textos{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .html_teste .html_textos ul li{
+        list-style: none;
+        cursor: pointer;
+    }
+    .html_teste .carousel{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .html_teste img{
+        width: 800px;
+        height: 450px;
+    }
+}

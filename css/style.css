@@ -1,0 +1,354 @@
+/* IMPORTAR FONT DO GOOGLE @IMPORT E URL */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eeeeee;
+}
+.areapcem{
+    width:70%;
+    margin: 0 auto;
+    /* border: 1px red solid; */
+}
+section, .projeto, h3{
+    padding-top: 60px;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-left: 30px;
+}
+p{
+    font-size: 18px;
+}
+
+
+
+header .logo_redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+header .logo_redes img{
+
+    max-width: 80%;
+}
+header .redes_sociais{
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    /* max-width: 20%; */
+}
+header .redes_sociais svg{
+    height: 35px;
+    padding: 2px 7px;
+    color: #37414f;
+}
+header .redes_sociais:hover svg{
+    color: #22283160;
+    transition: 300ms;
+}
+header .redes_sociais svg:hover{
+    color: #0d0f13;
+}
+.navbar{
+    background-color: #fffffff8;
+    position: sticky;
+    top:0px;
+    z-index: 1;
+}
+
+
+
+.sobre .areapcem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sobre .texto_sobre{
+    width: 100%;
+}
+.sobre .texto_sobre p{
+    max-width: 550px;
+}
+.sobre .tecnologias_sobre p{
+    font-weight: bold;
+}
+.sobre .tecnologias_sobre .icones{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    /* border: 1px solid red; */
+}
+.sobre .tecnologias_sobre svg{
+    font-size: 40px;
+    padding: 0px 3px;
+}
+.sobre img{
+    height: 450px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+.sobre .icones .nome_tec span{
+    display: none;
+    position: absolute;
+    top:-42px;
+    left: 110px;
+    font-weight: bold;
+}
+.sobre .icones .nome_tec:hover span{
+    display: inline;
+    position: absolute;
+    top:-42px;
+    left: 110px;
+}
+
+
+.projeto{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+    position: relative;
+}
+.projeto:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.imagemsite{
+    width: 489px;
+    height: 305px;
+    background-size: cover;
+    position: absolute;
+    top: 80px;
+    
+    transition: 2s;
+    /* border: 1px solid red; */
+}
+.projeto:nth-child(odd) .imagemsite{
+    left: 68px;
+}
+.projeto:nth-child(even) .imagemsite{
+    right: 68px;
+}
+.imagemsite:hover{
+    background-position: bottom;
+    transition: 2s;
+}
+#p8 .imagemsite{
+    background-image: url('../img/agviagenssite.jpeg');
+}
+#p7 .imagemsite{
+    background-image: url('../img/portfoliov1site.png');
+    transition: 6s;
+}
+#p6 .imagemsite{
+    background-image: url('../img/petshopsite.png');
+    transition: 4.5s;
+}
+#p5 .imagemsite{
+    background-image: url('../img/clinicasite.png');
+    transition: 2.5s;
+}
+#p4 .imagemsite{
+    background-image: url('../img/neymarsite.png');
+    transition: 1.5s;
+}
+#p3 .imagemsite{
+    background-image: url('../img/pousadasite.png');
+    transition: 2.5s;
+}
+#p2 .imagemsite{
+    background-image: url('../img/paratysite.png');
+    transition: 3s;
+}
+#p1 .imagemsite{
+    background-image: url('../img/hospedagemsite.png');
+}
+.projeto img{
+    width: 626.45px;
+    height: 360px;
+    object-fit: contain;
+}
+.projeto .texto_projeto{
+    padding: 20px;
+}
+.projeto .nome_projeto{
+    font-size: 24px;
+    font-weight: 700;
+}
+.projeto figure svg{
+    font-size: 24px;
+}
+.projeto .botoes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px
+}
+.projeto .botoes a, .botao_enviar{
+    background-color: #37414f;
+    color: #eeeeee;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.projeto .botoes a svg{
+    margin-right: 5px;
+}
+.projeto .botoes a:hover, .botao_enviar:hover{
+    background-color: #d4d4d4;
+    color: #37414f;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.certificados h2{
+    margin-bottom: 50px;
+}
+.curso{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    margin-bottom: 20px;
+    /* font-size: 12px; */
+    text-align: center;
+    /* height: 350px; */
+}
+.bloco_certificados{
+    width: 100%;
+}
+.certificado_curso img{
+    margin: 0 15px;
+    object-fit: cover;
+    width: 500px;
+    height:350px;
+}
+.certificado_curso figure figcaption{
+    font-size: 14px;
+    padding-top: 15px;
+    max-width: 350px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+.certificados span{
+    font-size: 20px;
+    font-weight: bold;
+}
+/* carrousel */
+.html_teste{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+.html_teste .html_textos{
+    width: 40%;
+}
+.html_teste .html_textos ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.html_teste .carousel{
+    width: 600px;
+}
+.html_teste img{
+    width: 600px;
+    height: 420px;
+    object-fit: cover;
+}
+
+
+
+.contatos .dados_contato{
+    display: flex;
+    padding: 30px;
+    font-weight: 700;
+    border: #37414f 5px;
+    border-style: double;
+    background-color: #d4d4d4;
+
+}
+.dados_contato a{
+    text-decoration: none;
+    color: var(--bs-heading-color);
+}
+.dados_contato .meus_dados{
+    width: 40%;
+}
+.dados_contato .meus_dados div{
+    margin-bottom: 15px;
+}
+.dados_contato .meus_dados div p:nth-child(2),
+.dados_contato .meus_dados div a:nth-child(2),
+.dados_contato .meus_dados div nav a{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.dados_contato .meus_dados p{
+    margin-bottom: 0;
+}
+.dados_contato .svg-inline--fa {
+    height: 32px;
+    margin-top: 10px;
+}
+
+.dados_contato form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.dados_contato form input,
+.dados_contato form textarea{
+    padding: 5px;
+    margin: 5px;
+    resize: none;
+    border: none;
+}
+.dados_contato .botao_enviar{
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 200ms;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d4d4d4;
+    /* border: 1px solid red; */
+    padding: 20px;
+    margin-top: 30px;
+
+}
+footer p{
+    /* border: 1px solid red; */
+    margin: 0px;
+    font-size: 14px;
+}
